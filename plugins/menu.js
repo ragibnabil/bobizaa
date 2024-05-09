@@ -124,7 +124,7 @@ contextInfo: {
 externalAdReply: {
 title: 'DOCTOR BOT ♥',
 body: "أول بوت واتساب ديني 💖",
-thumbnailUrl: 'https://picjj.com/image/mrousavy2326020283013642303.pzVan',
+thumbnailUrl: 'https://imgg.io/image/K7pqY',
 sourceUrl: 'https://instagram.com/00o5k',
 mediaType: 1,
 renderLargerThumbnail: true
