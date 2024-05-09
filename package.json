@@ -97,6 +97,9 @@
     "sanzy-spotifydl":"*",
     "util":"*",
     "yargs": "^17.3.1",
+    "carbon-now-scraper":"*",
+    "puppeteer":"*",
+    "fs":"*",
     "undici":"*",
     "ytdl-core": "github:khlevon/node-ytdl-core#v4.11.4-patch.2"
   },
