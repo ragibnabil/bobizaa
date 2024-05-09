@@ -20,7 +20,7 @@ ${translation_id}
 }
 handler.help = ['أسماء الله [1-99]']
 handler.tags = ['islam']
-handler.command = /^أسماء الله|اسماء الله$/i
+handler.command = /^أسماء الله$/i
 export default handler
 
 global.asmaulhusna = [
