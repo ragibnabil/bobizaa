@@ -14,14 +14,13 @@ const defaultMenu = {
 ⏰ *Uptime:* %muptime  
 ┗━━━━━━━━━━⬣
 %readmore
-  ≡ *D O C T O R | M E N U*
+  ≡ .أذكار الصباح
+  .اذكار المساء
 `.trimStart(),
   header: '┏━━⊜ *_%category_* ',
   body: '┃⋄ %cmd %isdiamond %isPremium',
   footer: '┗━━━━━━━━⬣\n',
   after: '*إستخدامك للبوت بشكل صحيح يعني أنك تزيد من إحتمالية أن يبقى البوت شغالا لمدة أطول . أشكر كل من ساعدني في صناعة البوت وفي ميزان حسناته إن شاء الله اذا لم تفهم شيء تواصل معي https://instagram.com/00o5k',
-before: '.أذكار الصباح
-  .اذكار المساء',
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {
