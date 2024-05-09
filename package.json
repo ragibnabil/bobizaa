@@ -94,6 +94,7 @@
     "openai": "^3.1.0",
     "hxz-api":"*",
     "fluid-spotify.js":"*",
+    "node-fetch":"*",
     "sanzy-spotifydl":"*",
     "util":"*",
     "yargs": "^17.3.1",
