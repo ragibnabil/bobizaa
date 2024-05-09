@@ -1,6 +1,6 @@
 import fetch from  'node-fetch'
 let handler = async (m, { text, usedPrefix, command }) => {
-if (!text) throw `ناتسو بوت اصبح يدعم شات gpt البحوث والعروض والترجمة والاجابة عن التمارين والأسئلة كيف ما كان نوعها و بكل اللغات \n \n`
+if (!text) throw `دكتور بوت اصبح يدعم شات gpt البحوث والعروض والترجمة والاجابة عن التمارين والأسئلة كيف ما كان نوعها و بكل اللغات \n \n`
 try {
 let IA2 = await fetch(`https://api.amosayomide05.cf/gpt/?question=${text}&string_id=${m.sender}`)  
 let IAR2 = await IA2.json()
