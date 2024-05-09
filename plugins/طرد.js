@@ -11,7 +11,7 @@ m.reply(`*المدفعية عطبرة بوووووڤ🔥🚫*`)
 }
 
 handler.help = ['kick @user']
-handler.tags = ['group']
+handler.tags = ['']
 handler.command = ['kick', 'طرد'] 
 handler.admin = true
 handler.group = true
