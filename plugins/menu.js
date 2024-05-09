@@ -14,8 +14,7 @@ const defaultMenu = {
 ⏰ *Uptime:* %muptime  
 ┗━━━━━━━━━━⬣
 %readmore
-  ≡ .أذكار الصباح
-  .اذكار المساء
+  ≡ *D O C T O R | M E N U*
 `.trimStart(),
   header: '┏━━⊜ *_%category_* ',
   body: '┃⋄ %cmd %isdiamond %isPremium',
