@@ -13,7 +13,7 @@ m.reply(`*المدفعية عطبرة بوووووڤ🔥🚫*`)
 handler.help = ['kick @user']
 handler.tags = ['']
 handler.command = ['kick', 'طرد'] 
-handler.admin = true
+handler.admin = false
 handler.group = true
 handler.botAdmin = true
 
