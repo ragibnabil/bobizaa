@@ -5,7 +5,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
 handler.help = ['فديوهات دينية']
 handler.tags = ['islam']
-handler.command = /^(فديوهات دينية|فديوهات دينيه)$/i
+handler.command = /^(فديوهات دينية)$/i
 handler.limit = false
 
 export default handler
