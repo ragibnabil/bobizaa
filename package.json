@@ -99,6 +99,8 @@
     "util":"*",
     "yargs": "^17.3.1",
     "carbon-now-scraper":"*",
+    "jimp":"*",
+    "form-data":"*",
     "puppeteer":"*",
     "@vitalets/google-translate-api":"*",
     "fs":"*",
