@@ -19,7 +19,7 @@ const defaultMenu = {
   header: '┏━━⊜ *_%category_* ',
   body: '┃⋄ %cmd %isdiamond %isPremium',
   footer: '┗━━━━━━━━⬣\n',
-  after: '*إستخدامك للبوت بشكل صحيح يعني أنك تزيد من إحتمالية أن يبقى البوت شغالا لمدة أطول . أشكر كل من ساعدني في صناعة البوت وفي ميزان حسناته إن شاء الله اذا لم تفهم شيء تواصل معي https://instagram.com/00o5k',
+  after: 'استخدم البوت بشكل صحيح.            ‏﴿ وَذَكِّرْ فَإِنَّ الذِّكْرَىٰ تَنفَعُ الْمُؤْمِنِينَ ﴾   ',
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {
@@ -125,7 +125,7 @@ externalAdReply: {
 title: 'DOCTOR BOT ♥',
 body: "أول بوت واتساب ديني 💖",
 thumbnailUrl: 'https://telegra.ph/file/3a4b92194f9d16a65305a.jpg',
-sourceUrl: 'https://instagram.com/00o5k',
+sourceUrl: 'https://chat.whatsapp.com/G0MYdGOwpqI2PVTKfcpy71',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
