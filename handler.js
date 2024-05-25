@@ -1536,19 +1536,19 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
 
 global.dfail = (type, m, conn) => {
   const msg = {
-    rowner: '*[ ℹ️ ] This command can only be used by the bot owner.*',
-    owner: '*[ ℹ️ ] This command can only be used by the bot owner.*',
-    mods: '*[ ℹ️ ] This command can only be used by moderators and the bot owner.*',
-    premium: '*[ ℹ️ ] This command can only be used by premium users and the bot owner.*',
-    group: '*[ ℹ️ ] This command can only be used in groups.*',
-    private: '*[ ℹ️ ] This command can only be used in the bot s private chat.*',
-    admin: '*[ ℹ️ ] This command can only be used by group administrators.*',
-    botAdmin: '*[ ℹ️ ] To use this command it is necessary that the bot be an administrator of the group.*',
+    rowner: '*[ ℹ️ ] هذا الامر خاص بالمطور دكتر فقط.*',
+    owner: '*[ ℹ️ ] هذا الامر خاص بالمطور دكتر فقط.*',
+    mods: '*[ ℹ️ ] لا يمكن استخدام هذا الامر إلا من قبل المشرفين والمطور دكتر.*',
+    premium: '*[ ℹ️ ] لا يمكن استخدام هذا الأمر إلا من قبل المستخدمين المميزين والمطور دكتر.*',
+    group: '*[ ℹ️ ] هذا الامر يستخدم في المجموعات فقط.*',
+    private: '*[ ℹ️ ] لا يمكن استخدام هذا الامر إلا في الخاص فقط.*',
+    admin: '*[ ℹ️ ] لا يمكن استخدام هذا الأمر إلا من قبل ادمن المجموعة.*',
+    botAdmin: '*[ ℹ️ ] لاستخدام هذا الامر، من الضروري أن يكون البوت ادمن في المجموعة.*',
     unreg: '*[ ℹ️ ] To use this command you must be registered.*\n\n*[ 💡 ] Use the command:* _#verify name.age_ *to register.*',
-    restrict: '*[ ℹ️ ] This command was disabled by the bot owner.*',
+    restrict: '*[ ℹ️ ] تم تعطيل هذا الامر من قبل مالك البوت دكتر.*',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '*[ ⚠ ] تحذير*', body: 'DOCTOR BOT ☝🏾', thumbnail: imag, sourceUrl: 'https://chat.whatsapp.com/G0MYdGOwpqI2PVTKfcpy71'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '*[ ⚠ ] تحذير*', body: 'DOCTOR BOT ☝🏾', thumbnail: imagen1, sourceUrl: 'https://chat.whatsapp.com/G0MYdGOwpqI2PVTKfcpy71'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
