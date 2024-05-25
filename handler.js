@@ -1548,7 +1548,7 @@ global.dfail = (type, m, conn) => {
     restrict: '*[ ℹ️ ] تم تعطيل هذا الامر من قبل مالك البوت دكتر.*',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '*[ ⚠ ] تحذير*', body: 'DOCTOR BOT ☝🏾', thumbnail: imagen1, sourceUrl: 'https://chat.whatsapp.com/G0MYdGOwpqI2PVTKfcpy71'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '*تذكر دينك*', body: 'DOCTOR BOT ☝🏾', thumbnail: imagen1, sourceUrl: 'https://chat.whatsapp.com/G0MYdGOwpqI2PVTKfcpy71'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
