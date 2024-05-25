@@ -55,7 +55,7 @@ conn.akira = conn.akira ? conn.akira : {};
  }
 }
 
-handler.command = ['doctor'];
+handler.command = ['دكتر'];
 handler.tags = ["islam"]
-handler.help = ['doctor']
+handler.help = ['doctor,دكتور,دكتر']
 export default handler
