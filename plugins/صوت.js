@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 //api.quran.com/api/v4
-const API_KEY = 'YOUR_API_KEY';
+const API_KEY = '//api.quran.com/api/v4';
 
 //api.quran.com/api/v4
 async function getAudioForSurah(surahNumber) {
@@ -18,6 +18,6 @@ async function getAudioForSurah(surahNumber) {
 // استخدام الوظيفة للحصول على التسجيل الصوتي للسورة المحددة
 getAudioForSurah(1); // مثال: سورة الفاتحة
 handler.help = ['صوت']
-handler.tags = ['islam']
+handler.tags = ['']
 handler.command = /^صوت$/i
 export default handler
