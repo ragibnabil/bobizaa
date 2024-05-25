@@ -331,12 +331,12 @@ global.reloadHandler = async function(restatConn) {
 
   conn.welcome = '👋 ¡Welcome/to!\n@user';
   conn.bye = '👋 ¡See you later!\n@user';
-  conn.spromote = '*[ ℹ️ ] @user He was promoted to administrator.*';
-  conn.sdemote = '*[ ℹ️ ] @user He was demoted from administrator.*';
-  conn.sDesc = '*[ ℹ️ ] The group description has been modified.*';
-  conn.sSubject = '*[ ℹ️ ] The group name has been changed.*';
-  conn.sIcon = '*[ ℹ️ ] The group profile photo has been changed.*';
-  conn.sRevoke = '*[ ℹ️ ] The group invite link has been reset.*';
+  conn.spromote = '*[ ℹ️ ] @user تم رفع ادمن.*';
+  conn.sdemote = '*[ ℹ️ ] @user تم الإنزال من الادمن.*';
+  conn.sDesc = '*[ ℹ️ ] تم تعديل وصف القروب.*';
+  conn.sSubject = '*[ ℹ️ ] تم تغيير اسم القروب.*';
+  conn.sIcon = '*[ ℹ️ ] تم تغيير صورة القروب.*';
+  conn.sRevoke = '*[ ℹ️ ] تمت إعادة تعيين رابط القروب.*';
 
   conn.handler = handler.handler.bind(global.conn);
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
