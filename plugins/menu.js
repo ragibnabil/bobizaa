@@ -124,7 +124,7 @@ contextInfo: {
 externalAdReply: {
 title: 'DOCTOR BOT ♥',
 body: "أول بوت واتساب ديني 💖",
-thumbnailUrl: 'https://telegra.ph/file/3a4b92194f9d16a65305a.jpg',
+thumbnailUrl: 'https://telegra.ph/file/d1f8d29ebc48a6d6edcc4.jpg',
 sourceUrl: 'https://chat.whatsapp.com/G0MYdGOwpqI2PVTKfcpy71',
 mediaType: 1,
 renderLargerThumbnail: true
