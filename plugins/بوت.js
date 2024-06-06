@@ -57,5 +57,5 @@ conn.akira = conn.akira ? conn.akira : {};
 
 handler.command = ['دكتر'];
 handler.tags = ["islam"]
-handler.help = ['doctor,دكتور,دكتر']
+handler.help = ['دكتر']
 export default handler
