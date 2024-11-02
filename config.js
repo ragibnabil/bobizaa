@@ -10,15 +10,15 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['249121513305', 'doctor', true],
+  ['249909313526', 'doctor', true],
 
-  ['249121513305','doctor', true],
-  ['249121513305'],
-  ['249121513305']
+  ['249909313526','doctor', true],
+  ['249909313526'],
+  ['249909313526']
 ];
 
-global.suittag = ['249121513305'];
-global.prems = ['249121513305'];
+global.suittag = ['249909313526'];
+global.prems = ['249909313526'];
 
 global.packname = 'doctor bot';
 global.author = 'doctor';
@@ -53,7 +53,7 @@ global.mysticbot = 'https://chat.whatsapp.com/G0MYdGOwpqI2PVTKfcpy71';
 global.waitt = '*[ ⏳ ] LOADING...*';
 global.waittt = '*[ ⏳ ] LOADING...*';
 global.waitttt = '*[ ⏳ ] LOADING...*';
-global.nomorown = '249121513305';
+global.nomorown = '249909313526';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
